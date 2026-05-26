@@ -1,0 +1,10 @@
+{
+  "globs": ["**/*.md"],
+  "config": {
+    "line-length": false,
+    "single-title": false,
+    "first-line-heading": false,
+    "table-column-style": false
+  },
+  "ignores": ["node_modules/**"]
+}

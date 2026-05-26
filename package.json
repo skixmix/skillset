@@ -1,0 +1,24 @@
+{
+  "name": "skillset",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Personal AI agent skills collection",
+  "scripts": {
+    "link-skills": "tsx scripts/link-skills.ts",
+    "unlink-skills": "tsx scripts/unlink-skills.ts",
+    "test": "vitest run",
+    "lint": "biome check && markdownlint-cli2",
+    "lint:fix": "biome check --fix && markdownlint-cli2 --fix",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.8",
+    "@types/node": "22.0.0",
+    "husky": "9.1.7",
+    "markdownlint-cli2": "0.22.0",
+    "tsx": "4.19.0",
+    "typescript": "5.9.3",
+    "vitest": "3.1.0"
+  }
+}
